@@ -277,3 +277,66 @@ input, select{
         color: #8e9092;
     }
 }
+
+
+@media (max-width: 768px){
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 16px;
+    }
+
+    .content-main-section{
+        width: 100%;
+    }
+
+    .title-content{
+        font-size: 1.6rem;
+    }
+
+    .p-content-main-section{
+        font-size: 1rem;
+    }
+
+    .card-main-section{
+        grid-template-columns: 1fr; 
+    }
+
+    .chapter-box{
+        flex-direction: column;
+    }
+
+    .card-section{
+        grid-template-columns: 1fr;
+    }
+
+    .title-banner{
+        font-size: 1.4rem;
+    }
+
+    .banner{
+        padding: 20px;
+    }
+
+    .header{
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .navbar{
+        gap: 15px;
+    }
+
+    .caption-main-section{
+        font-size: 1rem;
+    }
+
+    .p-card{
+        font-size: 1rem;
+    }
+
+    .form-section{
+        max-width: 100%;
+        padding: 20px 15px;
+    }
+}
