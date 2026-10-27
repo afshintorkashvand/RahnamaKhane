@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RahnamaKhane</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <header class="header">
             <h3 class="title-header">راهنما سایت</h3>
             <nav class="navbar">
                 <a class="nav-link" href="#chapter">فصل‌ها</a>
-                <a class="nav-link" href="#">درخواست راهنما</a>
+                <a class="nav-link" href="#form">درخواست راهنما</a>
             </nav>
         </header>
 
@@ -25,7 +27,8 @@
 
             <secion class="content-main-section">
                 <h2 class="title-content">راهنمای شروع یادگیری وب</h2>
-                <p class="p-content-main-section">سه فصل کوتاه برای کسی که میخواهدساختار صفحه؛ظاهروثبت تغییرهای خود را مرورکند.</p>
+                <p class="p-content-main-section">سه فصل کوتاه برای کسی که میخواهدساختار صفحه؛ظاهروثبت تغییرهای خود را
+                    مرورکند.</p>
                 <div class="card-main-section">
                     <div class="card-pdf">
                         <span class="bl-tag">زبان</span>
@@ -91,8 +94,77 @@
                 </div>
             </section>
 
-
         </main>
+
+        <article class="article" id="form">
+            <section class="form-section">
+                <h3 class="title-form">درخواست راهنما</h3>
+
+                <p>سطح آشنایی فقط برای شناخت مخاطب است؛ همه سطح‌ها همین نسخه فارسی را درخواست می‌کنند.</p>
+
+                <form class="form">
+                    <label for="name">
+                        نام<span class="gry-color"> (اختیاری) </span>
+                        <input type="text" id="name" >
+                    </label>
+
+                    <label for="email">
+                        ایمیل<span class="org-color"> (اجباری) </span>
+                        <input type="email" id="email"  required>
+                    </label>
+
+                    <label for="level">
+                        سطح آشنایی<span class="org-color"> (اجباری) </span>
+                        <select name="level" id="level">
+
+                            <option value="">سطح آشنایی را انتخاب کنید</option>
+
+                            <option value="beginner">تازه شروع کرده‌ام</option>
+
+                            <option value="html-css">مقدماتی را دیده‌ام HTML/CSS</option>
+
+                            <option value="rewiew">برای مرور می‌خواهم</option>
+
+                        </select>
+                    </label>
+
+                    <section class="interest">
+                        <input type="checkbox" id="interest">
+                        <label for="interest">
+                        مایلم راهنما را در ایمیل نمونه وارد شده دریافت کنم<span class="org-color"> (اجباری) </span>
+                    </label>
+                    </section>
+
+                    <button class="brn-form">ارسال درخواست آزمایشی</button>
+
+                </form>
+
+                <section class="call-mail">
+                    <div class="call">تماس</div>
+                    <div class="email">email@example.com</div>
+                </section>
+
+            </section>
+        </article>
+
+        <footer class="footer">
+            <p>راهنماخانه __ نسخه آموزشی</p>
+        </footer>
+
     </div>
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+

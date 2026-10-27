@@ -7,7 +7,7 @@
 
 .container{
     background-color: #f0f3f7;
-    padding: 10px 40px;
+    
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -32,6 +32,7 @@
     font-weight: bold;
 }
 .main-section{
+    padding: 10px 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
@@ -61,6 +62,7 @@
     grid-row: 1;
     grid-column: 1 / 2;
 }
+
 .title-banner{
     color: #ffffff;
 }
@@ -188,4 +190,90 @@
         font-size: 1.5rem;
         font-weight: bold;
         line-height: 1.5;
+}
+
+.article{
+    background: #dfe5ed;
+    padding-top: 30px ;
+    padding-bottom: 30px;
+    display: grid;
+    place-items: center;
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    p{
+        background-color: #ffe8d6;
+    border-right: 4px solid #cf4000;
+    border-radius: 8px;
+    color: #6b7389;
+    padding: 15px;
+    font-size: 1.3rem;
+    }
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+label{
+    font-weight: bold;
+}
+input, select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #dfe4ea;
+}
+#name,#email, #level{
+    margin-top: 5px;
+}
+.gry-color{
+    color: #878b8f;
+}
+.org-color{
+    color: #a95317;
+}
+.interest{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+    background-color: #f0f3f7;
+    border-radius: 8px;
+    padding: 12px;
+    #interest{
+        width: fit-content;
+    }
+
+}
+.brn-form{
+    background-color: #d35400;
+    color: #ffffff;
+    padding:10px 16px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    border: 1px solid #983200;
+    width: fit-content;
+}
+.call-mail{
+    border-top:  1px solid #dfe4ea;
+    padding-top: 15px;
+    .call{
+        font-weight: bold;
+    }
+    .email{
+        color: #a95317;
+    }
+}
+.footer{
+    background-color: #f0f3f7;
+    text-align: center;
+    p{
+        color: #8e9092;
+    }
 }
