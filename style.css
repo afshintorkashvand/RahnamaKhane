@@ -24,11 +24,12 @@
 }
 .navbar{
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 .nav-link{
     color: #000000;
     text-decoration: none;
+    font-weight: bold;
 }
 .main-section{
     display: grid;
@@ -67,4 +68,124 @@
     grid-row: 1;
     grid-column: 2 / 5;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.title-content{
+    font-size: 3rem;
+}
+.p-content-main-section{
+    font-size: 1.7rem;
+    color: #b4bac2;
+}
+.card-main-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.card-pdf{
+    background-color: #ffffff;
+    border: 1px solid #dfe4ea;
+    border-radius: 8px;
+    gap: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.bl-tag{
+    color: #6b7389;
+    font-weight: bold;
+}
+.red-tag{
+    color: #b16d30;font-weight: bold;
+}
+.caption-main-section{
+    background-color: #ffe8d6;
+    border-right: 4px solid #cf4000;
+    border-radius: 8px;
+    color: #6b7389;
+    font-size: 1.6rem;
+    padding: 15px;
+}
+.chapter{
+    grid-row: 2;
+    grid-column: 1 / 5;
+}
+.title-chapter-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.chapter-box{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    
+    border: 1px solid #dfe4ea;
+    
+
+}
+.bg-box-chapter{
+    background-color: #eef1f5;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    p{
+        font-weight: bold;
+    }
+}
+.num-bg{
+    background-color: #ffe8d6;
+    padding: 5px;
+    border-radius: 5px;
+    span{
+        color: #a14608;
+        font-weight: bold;
+    }
+}
+.card-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #dfe4ea;
+    span{
+        color: #d5622e;
+    }
+    p{
+        font-weight: bold;
+    }
+}
+.tag-cart{
+    background-color: #ffe8d6;
+    padding: 5px;
+    border-radius: 20px;
+    width: fit-content;
+    font-weight: bold;
+    span{
+        color: #a95317;
+        
+    }
+}
+.p-card{
+    color: #b4bac2;
+    
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5;
 }
